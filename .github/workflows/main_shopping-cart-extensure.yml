@@ -54,4 +54,7 @@ jobs:
           app-name: 'shopping-cart-ExtenSURE'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_86E666565E5343E8876CCB6ADF714277 }}
-          package: Shopping-App/.
+          package: .
+      - name: npm install, build, and test
+        run: |
+          npm start
