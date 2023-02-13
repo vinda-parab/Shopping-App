@@ -28,7 +28,8 @@ function Login() {
     auth
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {
-        navigate("/");
+      window.zipy.identify(email);
+      navigate("/");
         setUser(auth.user);
         setModal(false);
       })
