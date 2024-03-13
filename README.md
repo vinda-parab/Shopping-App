@@ -21,7 +21,7 @@ You can check the site here
 - Firebase for real time database
 - Store orders for logged in user
 - Deploy the App LIVE on Firebase
-
+- Deploy the App LIVE on Firebase
 ## Author
 
 Özge Coşkun Gürsucu (codermother)
