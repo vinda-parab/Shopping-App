@@ -52,3 +52,4 @@ Scenario: Verify the newly created claim
   When User hits Back button
   Then Verify user is taken back to Employee Claims page
   And Verify assigned claims are displayed again
+  
