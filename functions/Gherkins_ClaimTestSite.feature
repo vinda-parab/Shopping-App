@@ -17,7 +17,7 @@ Scenario: Create A Claim
   And Verify Reference Id is numeric, not empty and unique
   And Capture the Reference Id
 
-Scenario: Add Expenses
+Scenario: Add Expenses to List
   Given User has created a claim
   When User adds an expense to the claim with the following data
     | Expense Type | Date       | Amount |
